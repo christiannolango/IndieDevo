@@ -5,6 +5,7 @@ Here you can pay other game devs to develop something you don't know how to do. 
 Posting Jobs
 User Profiles
 Messaging Service for negotiating job (look for third party)
+	Django Channels
 Integration with Escrow Service (look for third party)
 AWS Hosting
 
