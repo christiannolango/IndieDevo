@@ -2,7 +2,18 @@
 
 {% extends 'base.html' %}
 
+
+
 {% block content %}
+
+{% if messages %}
+    <ul>
+        {% for message in messages %}
+        <li>{{ message }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+
 Hello, {{ user.username|default:'Guest' }}!
 
 <div>
