@@ -5,9 +5,7 @@ from django.shortcuts import redirect, render
 from django.urls import reverse
 from users.forms import CustomUserCreationForm
 from django.contrib import messages
-
-def dashboard(request):
-    return render(request, "users/dashboard.html")
+from dashboard.views import dashboard
 
 def register(request):
     if request.method == "GET":
